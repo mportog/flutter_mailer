@@ -1,0 +1,29 @@
+name: fluttermailer
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  mailer: ^3.0.4
+  shared_preferences: ^0.5.6+3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/mailer_logo.png
+    - assets/images/fail.gif
+    - assets/images/ok.gif
